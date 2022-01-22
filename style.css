@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111827;
+}
+
+.container{
+    position: absolute;
+    max-width: 1247px;
+    height: 711px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.myRightCtn{
+    position: relative;
+    height: 100%;
+    padding: 25px;
+    color: rgb(192, 192, 192);
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.myLeftCtn{
+    position: relative;
+    /* background: #fff; */
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    padding-left: 50px;
+}
+
+.myLeftCtn header{
+    color: #C4C4C4;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.row{
+    height: 100%;
+}
+
+.myCard{
+    position: relative;
+    background-color: #C4C4C4;
+    height: 100%;
+    border-radius: 25px;
+    box-shadow:0px 10px 40px -10px rgba(0, 0, 0, 0.7) ;
+}
+
+/* .myRightCtn header{
+    color: #fff;
+    font-size: 44px;
+} */
+
+.box{
+    position: relative;
+    margin: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.myLeftCtn .myInput {
+width: 475px;
+height: 80px;
+border-radius: 44px;
+padding:10px;
+padding-left: 50px;
+margin: 1rem;
+border:none;
+box-shadow:0px 10px 49px -14px rgba(0, 0, 0, 0.7) ;
+}
+
+.myLeftCtn .myInput:focus{
+    outline: none;
+    
+}
+
+.myInput{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.myForm{
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+.myLeftCtn .butt{
+    background-color: #111827;
+    color: white;
+    margin: 1.5rem;
+    width: 230px;
+    border:none;
+    border-radius: 25px;
+    padding:10px;
+    box-shadow:0px 10px 49px -11px rgba(0, 0, 0, 0.7) ;
+}
+
+.myLeftCtn .butt:hover{
+    background-color:  #C4C4C4;
+    color: black;
+}
+
+.myLeftCtn .butt:focus{
+    outline: none;
+}
+
+h6{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+h2{
+    font-size: 5rem;
+    color: #111827;
+}
